@@ -1,0 +1,91 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Zeno",
+  "colors": {
+    "primary": "#5865F2",
+    "light": "#5865F2",
+    "dark": "#5865F2"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["index"]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "security/antinuke",
+              "security/verification",
+              "security/automod",
+              "security/moderation"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/autoresponder",
+              "configuration/autoreact",
+              "configuration/profile",
+              "configuration/sticky",
+              "configuration/birthday",
+              "configuration/autopurge",
+              "configuration/leveling",
+              "configuration/general",
+              "configuration/tickets",
+              "configuration/media",
+              "configuration/premium",
+              "configuration/customrole",
+              "configuration/vanityrole",
+              "configuration/tagrole"
+            ]
+          },
+          {
+            "group": "Entertainment",
+            "pages": [
+              "entertainment/action",
+              "entertainment/games",
+              "entertainment/dating",
+              "entertainment/fun"
+            ]
+          },
+          {
+            "group": "Tracking",
+            "pages": [
+              "tracking/message-tracking",
+              "tracking/voice-tracking",
+              "tracking/invite-tracking"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo.png",
+    "dark": "/logo.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://discord.gg/R2y6TacbhS"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Invite Zeno",
+      "href": "https://discord.com/oauth2/authorize?client_id=1320766883691237529&permissions=8&integration_type=0&scope=bot"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/R2y6TacbhS"
+    }
+  }
+          }
